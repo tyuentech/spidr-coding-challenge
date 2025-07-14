@@ -20,7 +20,7 @@ Design should be inspired by and closely match the styling of https://spidr.desi
 
 ## Solution
 
-# ##Prototype UI/UX via Figma
+### Prototype UI/UX via Figma
 Utilizing Figma, I created a simple wireframe and prototype for the interest form styling and functionality basing the design off of Spidr's website. The app only includes the interest form component but the wireframe exemplifies what it could look like.
 
 See it on [Figma](https://www.figma.com/design/mPb8iRhuHzjKfn0PFqNh6f/Spidr-Challenge-Prototype?node-id=1-2&t=met6H8bmiT5oCw4e-1).
