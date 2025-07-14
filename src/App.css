@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+:root {
+    background-color: #333333;
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h1::after {
+    background-color: white;
+    height: 2px;
+    content: '';
+    line-height: 1.1;
+    display: block;
+    margin: 15px auto;
+    width: 120px;
+}
+
+p {
+    font-size: 14px;
+    /* padding: 7.5px 0px; */
+}
+
+input {
+    font-size: 14px;
+    font-weight: 400;
+    @apply text-gray-500 bg-white items-center text-center mx-auto w-60 h-7
+}
+
+#error {
+    @apply absolute text-red-500 left-1/2 -translate-x-1/2 text-center
+}
+
+button {
+    font-size: 14px;
+}
+
+#error {
+    font-size: 13px;
+}
+
+#item::after {
+    content: '';
+    height: 1px;
+    background-color: white;
+    width: 30px;
+    text-align: center;
+    display: block;
+    margin: 15px auto;
+}
+
+@theme {
+  --color-primary: purple;
+  --color-background: #479dafe9;
+  --color-button-accent: #56ACBD;
+  --font-raleway: "Raleway", sans-serif;
+}
